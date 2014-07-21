@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :pedidos
+
   resources :clientes
 
   resources :pizzas
